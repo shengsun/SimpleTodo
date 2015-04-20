@@ -136,7 +136,7 @@ public class MainActivity extends ActionBarActivity implements NewItemDialog.New
             item.save();
 
             itemsAdapter.notifyDataSetChanged();
-            Toast.makeText(this, "Item edited.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Item edited", Toast.LENGTH_SHORT).show();
         }
     }
 }
